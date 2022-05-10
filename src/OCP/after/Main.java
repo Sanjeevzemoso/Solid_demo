@@ -10,6 +10,8 @@ public class Main {
         mp.payrollcal(person);
         Commisionpayroll cmpr = new Commisionpayroll();
         cmpr.payrollcal((person));
+        Hourlypayroll hprl = new Hourlypayroll();
+        hprl.payrollcal(person);
 
 
     }
