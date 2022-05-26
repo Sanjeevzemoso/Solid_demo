@@ -9,7 +9,7 @@ public class ComputerI {
     public int ram;
 
 
-    ComputerI(String id, int power, String class1) {
+    public ComputerI(String id, int power, String class1) {
         this.productId = id;
         this.power = power;
         this.class1 = class1;
